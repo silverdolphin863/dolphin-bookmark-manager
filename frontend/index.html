@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dolphin Bookmark Manager</h1>
+    <form id="bookmarkForm">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="url" id="url" placeholder="URL" required>
+      <input type="text" id="category" placeholder="Category" required>
+      <button type="submit">Add Bookmark</button>
+    </form>
+    <div id="bookmarks" class="bookmarks"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

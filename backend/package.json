@@ -1,0 +1,16 @@
+{
+  "name": "dolphin-bookmark-manager",
+  "version": "1.0.0",
+  "description": "A full-screen bookmark manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "body-parser": "^1.19.0",
+    "shortid": "^2.2.15",
+	"mongo-url-shortener": "^1.0.0"
+  }
+}
